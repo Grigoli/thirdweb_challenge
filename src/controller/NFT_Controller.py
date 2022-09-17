@@ -43,9 +43,8 @@ class NFT_Collection_Controller(Resource):
 
 
 @api_nft.route("/collection/<nft_collection_address>")
-class NFT_Collection_Controller(Resource):
+class NFT_Collection_Controller_Get(Resource):
     @api_nft.doc('Get the metadata of all tokens in the contract')
-    @api_nft.expect(nft_collection_contract_metadata)
     def get(self, nft_collection_address):
         '''Get the metadata of all tokens in the contract'''
         return NFT_Service().getMetadatasOfNFTs(nft_collection_address)
