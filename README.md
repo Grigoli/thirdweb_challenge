@@ -61,8 +61,9 @@ POST /nft/collection
 this method takes following payload 
 ```
 <img width="690" alt="image" src="https://user-images.githubusercontent.com/34671779/190838995-eadd5c1e-c78b-4f27-8b44-ab8fe4c7d820.png">
+
 ```
-and returns "NFT Collection Address"
+and returns NFT Collection Address
 ```
 
 
@@ -83,7 +84,11 @@ POST /nft/mint/{nft_collection_address}
 this method takes NFT Collection Address parameter and following payload 
 ```
 <img width="455" alt="image" src="https://user-images.githubusercontent.com/34671779/190839126-78f98068-7072-47ef-91ca-b552048e8c2c.png">
+
 ```
-and returns "Minted NFT Transaction Hash"
+and returns Minted NFT Transaction Hash
 ```
+
+
+
 
